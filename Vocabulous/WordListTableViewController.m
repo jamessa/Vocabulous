@@ -115,9 +115,15 @@
     return wordsInSection.count;
 }
 
+- (NSString *)wordAtIndexPath:(NSIndexPath *)indexPath 
+{
+    NSArray *wordsInSection = [self.words objectForKey:[self.sections objectAtIndex:indexPath.section]];
+    return [wordsInSection objectAtIndex:indexPath.row];
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"WordListTableViewCell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
@@ -125,6 +131,8 @@
     }
     
     // Configure the cell...
+    cell.textLabel.text = [self wordsAtIndexPath:indexPath];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }
