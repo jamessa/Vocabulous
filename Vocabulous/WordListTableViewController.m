@@ -131,7 +131,7 @@
     }
     
     // Configure the cell...
-    cell.textLabel.text = [self wordsAtIndexPath:indexPath];
+    cell.textLabel.text = [self wordAtIndexPath:indexPath];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
