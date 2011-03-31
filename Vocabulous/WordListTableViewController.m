@@ -8,8 +8,15 @@
 
 #import "WordListTableViewController.h"
 
+@interface WordListTableViewController()
+@property (retain) NSMutableDictionary *words;
+@property (retain) NSArray *sections;
+@end
 
 @implementation WordListTableViewController
+
+@synthesize words, sections;
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
