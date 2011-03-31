@@ -15,6 +15,7 @@
 		4B65ED0B1344D0A700FA75B3 /* VocabulousAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B65ED0A1344D0A700FA75B3 /* VocabulousAppDelegate.m */; };
 		4B65ED0E1344D0A700FA75B3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B65ED0C1344D0A700FA75B3 /* MainWindow.xib */; };
 		4B65ED1E1344D27500FA75B3 /* WordListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B65ED1D1344D27500FA75B3 /* WordListTableViewController.m */; };
+		4B65ED221344ED6600FA75B3 /* DefinitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B65ED211344ED6600FA75B3 /* DefinitionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		4B65ED0D1344D0A700FA75B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		4B65ED1C1344D27500FA75B3 /* WordListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordListTableViewController.h; sourceTree = "<group>"; };
 		4B65ED1D1344D27500FA75B3 /* WordListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordListTableViewController.m; sourceTree = "<group>"; };
+		4B65ED201344ED6600FA75B3 /* DefinitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefinitionViewController.h; sourceTree = "<group>"; };
+		4B65ED211344ED6600FA75B3 /* DefinitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefinitionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				4B65ED0A1344D0A700FA75B3 /* VocabulousAppDelegate.m */,
 				4B65ED1C1344D27500FA75B3 /* WordListTableViewController.h */,
 				4B65ED1D1344D27500FA75B3 /* WordListTableViewController.m */,
+				4B65ED201344ED6600FA75B3 /* DefinitionViewController.h */,
+				4B65ED211344ED6600FA75B3 /* DefinitionViewController.m */,
 				4B65ED0C1344D0A700FA75B3 /* MainWindow.xib */,
 				4B65ED011344D0A700FA75B3 /* Supporting Files */,
 			);
@@ -160,6 +165,7 @@
 				4B65ED081344D0A700FA75B3 /* main.m in Sources */,
 				4B65ED0B1344D0A700FA75B3 /* VocabulousAppDelegate.m in Sources */,
 				4B65ED1E1344D27500FA75B3 /* WordListTableViewController.m in Sources */,
+				4B65ED221344ED6600FA75B3 /* DefinitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
